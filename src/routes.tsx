@@ -6,7 +6,9 @@ import {
 import Gemini from "./pages/Gemini";
 import Home from "./pages/Home";
 import Three from "./pages/ThreeJS";
-import Login from "./pages/Login";
+import Login from "./pages/AiHome/Login";
+import Register from "./pages/AiHome/Register";
+import AiHome from "./pages/AiHome";
 
 export const router = createBrowserRouter(
   createRoutesFromElements( 
@@ -15,6 +17,8 @@ export const router = createBrowserRouter(
       <Route path="/gemini" element={<Gemini />}></Route>
       <Route path="/threejs" element={<Three />}></Route>
       <Route path="/login" element={<Login />}></Route>
+      <Route path="/register" element={<Register />}></Route>
+      <Route path="/ai-home" element={<AiHome />}></Route>
     </>
   )
 );

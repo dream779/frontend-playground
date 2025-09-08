@@ -26,6 +26,11 @@ export default function Home() {
             Login
           </div>
         </List.Item>
+        <List.Item>
+          <div className={styles.item} onClick={() => nav("/ai-home")}>
+            AI-Home
+          </div>
+        </List.Item>
       </List>
     </div>
   );

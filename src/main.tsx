@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           token: {
             // Seed Token，影响范围大
             colorPrimary: Theme.color_6,
-            borderRadius: 2,
+            borderRadius: 4,
           },
         }}
       >
