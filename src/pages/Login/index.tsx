@@ -14,7 +14,7 @@ export default function Login() {
           </Form.Item>
           <Form.Item>
             <Button type="primary" htmlType="submit">
-              登录
+              登录2
             </Button>
           </Form.Item>
         </Form>
